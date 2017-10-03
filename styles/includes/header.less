@@ -1,0 +1,50 @@
+.header {
+    background: rgba(237, 28, 36, 0.8);
+
+    &__logo {
+        margin: 0;
+        display: block;
+        font-size: 0;
+    }
+
+    &__container {
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__menu {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+
+        &-item {
+            margin-right: 42px;
+        }
+
+        &-link {
+            text-decoration: none;
+            color: #fff;
+            .calc-font(15);
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &--language {
+                position: relative;
+                padding-right: 25px;
+            }
+        }
+
+        &-arrow_down {
+            position: absolute;
+            top: 50%;
+            margin-top: -4px;
+            right: 1px;
+
+        }
+    }
+}
