@@ -61,7 +61,7 @@ gulp.task('images', function() {
             progressive: true,
             interlaced: true
         })))
-        .pipe(gulp.dest('build/example_images'));
+        .pipe(gulp.dest('build/images'));
 });
 
 // HTML pages

@@ -15,7 +15,7 @@
         height: 90px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     &__menu {
@@ -26,6 +26,10 @@
 
         &-item {
             margin-right: 42px;
+
+            &:last-child {
+                margin-right: 100px;
+            }
         }
 
         &-link {
@@ -48,7 +52,6 @@
             top: 50%;
             margin-top: -4px;
             right: 1px;
-
         }
     }
 }
