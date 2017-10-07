@@ -1,5 +1,6 @@
 (function(document) {
-	var expirationDate = 'December 31 2017 23:59:59 GMT+03:00';
+	// var expirationDate = 'December 31 2017 23:59:59 GMT+03:00';
+	var expirationDate = 'Oct 17 2017 19:14:00 GMT+0300';
 
 	var daysEl    = document.getElementById("timer_days");
 	var hoursEl   = document.getElementById("timer_hours");
@@ -14,11 +15,15 @@
 		var days = Math.floor( t/(1000*60*60*24) );
 		return {
 			'total': t,
-			'days': days,
-			'hours': hours,
-			'minutes': minutes,
-			'seconds': seconds
+			'days': frmt(days),
+			'hours': frmt(hours),
+			'minutes': frmt(minutes),
+			'seconds': frmt(seconds)
 		};
+	}
+
+	function frmt(val) {
+		return val < 0 ? 0 : val;
 	}
 
 	var timeinterval = setInterval(function() {

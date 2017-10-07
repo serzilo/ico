@@ -91,13 +91,10 @@ gulp.task('styles_full', ['sprite'], function(cb) {
 gulp.task('styles', function() {
     src.styles = 'styles/**/*.{css,less}';
     return gulp.src('styles/bootstrap.less')
-        .pipe($.if(!RELEASE, $.sourcemaps.init()))
         .pipe($.less())
         .pipe($.autoprefixer(AUTOPREFIXER_BROWSERS))
-        .pipe($.csscomb())
-        .pipe(RELEASE ? $.cssmin() : $.util.noop())
+        .pipe($.cssmin())
         .pipe($.rename('style.css'))
-        .pipe($.if(!RELEASE, $.sourcemaps.write()))
         .pipe(gulp.dest('build/css'));
 });
 
