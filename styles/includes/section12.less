@@ -1,0 +1,116 @@
+.section__12 {
+    position: relative;
+    background-color: #383849;
+
+    &_container {
+        padding: 48px 0 61px;
+    }
+
+    &_header {
+        color: #fff;
+        margin-bottom: 34px;
+    }
+
+    &_roadmap {
+        display: flex;
+        align-items: flex-end;
+
+        &-item {
+            width: 33.33333%;
+            color: #ffffff;
+            padding: 0 3px;
+        }
+
+        &-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            &-item {
+                position: relative;
+                padding-left: 23px;
+                margin-bottom: 21px;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    top: 9px;
+                    bottom: -40px;
+                    left: 11px;
+                    width: 1px;
+                    background-color: #fc0e07;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    left: 8px;
+                    top: 6px;
+                    width: 7px;
+                    height: 7px;
+                    background-color: #fc0e07;
+                    border-radius: 3px;
+                }
+
+                &:last-child {
+                    margin-bottom: 20px;
+
+                    &::before {
+                        bottom: -10px;
+                    }
+                }
+
+                &-important {
+
+                    &::before {
+
+                    }
+
+                    &::after {
+                        top: 10px;
+                    }
+
+                    .section__12_roadmap-description {
+                        .calc-font(26);
+                        line-height: 1.15;
+                    }
+                }
+            }
+        }
+
+        &-description {
+            .calc-font(16);
+            font-weight: bold;
+            line-height: 1.25;
+        }
+
+        &-period {
+            .calc-font(14);
+            font-weight: 300;
+            line-height: 2.14;
+        }
+
+        &-year {
+            text-align: center;
+            .calc-font(20);
+            font-weight: bold;
+            line-height: 1.5;
+            position: relative;
+            padding-top: 17px;
+
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                background-color: #f91a0c;
+                height: 12px;
+                border-radius: 6px;
+            }
+        }
+    }
+}
