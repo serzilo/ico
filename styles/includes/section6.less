@@ -1,0 +1,85 @@
+.section__6 {
+    padding: 46px 0 90px;
+
+    &_scale {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 52px;
+
+        &-part {
+            height: 52px;
+            position: relative;
+
+            &::after,
+            &::before {
+                content: '';
+                display: block;
+                position: absolute;
+            }
+
+            &::before {
+                left: 17px;
+                top: 50%;
+                margin-top: -9px;
+                width: 18px;
+                height: 18px;
+                background-color: #383849;
+                border-radius: 50%;
+            }
+
+            &::after {
+                height: 43px;
+                bottom: 50%;
+                left: 25px;
+                width: 2px;
+                background-color: #383849;
+            }
+
+            &-odd {
+                background-color: #ff0000;
+            }
+
+            &-even {
+                background-color: #ff931e;
+            }
+
+            &-first {
+                border-top-left-radius: 26px;
+                border-bottom-left-radius: 26px;
+            }
+
+            &-last {
+                border-top-right-radius: 26px;
+                border-bottom-right-radius: 26px;
+
+                &::before {
+                    right: 17px;
+                    left: auto;
+                }
+
+                &::after {
+                    right: 25px;
+                    left: auto;
+                }
+
+                .section__6_scale-description {
+                    right: 25px;
+                    left: auto;
+                }
+            }
+        }
+
+        &-description {
+            position: absolute;
+            bottom: 100%;
+            margin-bottom: 15px;
+            left: 25px;
+            .calc-font(20);
+            font-weight: 300;
+            line-height: 1.5;
+            color: #383849;
+            border-bottom: 2px solid #383849;
+        }
+    }
+}
