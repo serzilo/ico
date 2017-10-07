@@ -123,9 +123,18 @@ gulp.task('sprite', function() {
         .pipe(gulp.dest('styles/sprite/')); //path to save style file on build
 });
 
+// JavaScript
+gulp.task('scripts', function () {
+	src.scripts = ['scripts/main.js'];
+	return gulp.src(src.scripts)
+		.pipe($.concat('bundle.js'))
+		.pipe($.uglify())
+		.pipe(gulp.dest('build/js'));
+});
+
 // Build
 gulp.task('build', ['clean'], function(cb) {
-    runSequence(['images', 'pages', 'styles_full'], cb);
+    runSequence(['images', 'pages', 'styles_full', 'scripts'], cb);
 });
 
 // Run BrowserSync
@@ -163,6 +172,7 @@ gulp.task('serve', ['build'], function() {
     gulp.watch(src.images, ['images']);
     gulp.watch(src.pages, ['pages']);
     gulp.watch(src.styles, ['styles']);
+    gulp.watch(src.scripts, ['scripts']);
     gulp.watch(src.spriteImages, ['sprite']);
     gulp.watch('./build/**/*.*', function(file) {
         browserSync.reload(path.relative(__dirname, file.path));
