@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a76472b-987a-434b-a495-7c308f7c2051" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/style.css" afterPath="$PROJECT_DIR$/build/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/bootstrap.less" afterPath="$PROJECT_DIR$/styles/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/header.less" afterPath="$PROJECT_DIR$/styles/includes/header.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/section1.less" afterPath="$PROJECT_DIR$/styles/includes/section1.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/includes/header.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="471">
               <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section1.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/includes/section1.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="100" column="29" lean-forward="true" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -116,6 +123,7 @@
       <find>section__4_description</find>
       <find>pkgs</find>
       <find>uglify</find>
+      <find>min-he</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,7 +152,6 @@
         <option value="$PROJECT_DIR$/layouts/default.jade" />
         <option value="$PROJECT_DIR$/includes/header.jade" />
         <option value="$PROJECT_DIR$/includes/section1.jade" />
-        <option value="$PROJECT_DIR$/styles/includes/section1.less" />
         <option value="$PROJECT_DIR$/includes/section4.jade" />
         <option value="$PROJECT_DIR$/styles/includes/section4.less" />
         <option value="$PROJECT_DIR$/scripts/main.js" />
@@ -158,6 +165,7 @@
         <option value="$PROJECT_DIR$/styles/base.less" />
         <option value="$PROJECT_DIR$/styles/bootstrap.less" />
         <option value="$PROJECT_DIR$/styles/includes/header.less" />
+        <option value="$PROJECT_DIR$/styles/includes/section1.less" />
       </list>
     </option>
   </component>
@@ -326,12 +334,12 @@
       <workItem from="1507396680668" duration="1758000" />
       <workItem from="1507398559742" duration="1200000" />
       <workItem from="1507458983629" duration="741000" />
-      <workItem from="1507462002046" duration="193000" />
+      <workItem from="1507462002046" duration="485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47000000" />
+    <option name="totallyTimeSpent" value="47292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="361" y="23" width="1915" height="1337" extended-state="0" />
@@ -589,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/includes/section1.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="804">
-          <caret line="100" column="29" lean-forward="false" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1253">
@@ -708,6 +709,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/includes/section1.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="100" column="29" lean-forward="true" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
       </provider>
