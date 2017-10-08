@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a76472b-987a-434b-a495-7c308f7c2051" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/section1.less" afterPath="$PROJECT_DIR$/styles/includes/section1.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/section10.jade" afterPath="$PROJECT_DIR$/includes/section10.jade" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,11 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section1.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="section1.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/includes/section1.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="760">
-              <caret line="100" column="29" lean-forward="true" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+              <caret line="100" column="29" lean-forward="false" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section10.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/section10.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="38" column="72" lean-forward="true" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -78,16 +89,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="3" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -145,7 +146,6 @@
         <option value="$PROJECT_DIR$/styles/includes/section10.less" />
         <option value="$PROJECT_DIR$/styles/includes/section2.less" />
         <option value="$PROJECT_DIR$/includes/section7.jade" />
-        <option value="$PROJECT_DIR$/includes/section10.jade" />
         <option value="$PROJECT_DIR$/includes/section11.jade" />
         <option value="$PROJECT_DIR$/includes/section3.jade" />
         <option value="$PROJECT_DIR$/styles/includes/section3.less" />
@@ -166,6 +166,7 @@
         <option value="$PROJECT_DIR$/styles/bootstrap.less" />
         <option value="$PROJECT_DIR$/styles/includes/header.less" />
         <option value="$PROJECT_DIR$/styles/includes/section1.less" />
+        <option value="$PROJECT_DIR$/includes/section10.jade" />
       </list>
     </option>
   </component>
@@ -334,12 +335,12 @@
       <workItem from="1507396680668" duration="1758000" />
       <workItem from="1507398559742" duration="1200000" />
       <workItem from="1507458983629" duration="741000" />
-      <workItem from="1507462002046" duration="485000" />
+      <workItem from="1507462002046" duration="588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47292000" />
+    <option name="totallyTimeSpent" value="47395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="361" y="23" width="1915" height="1337" extended-state="0" />
@@ -541,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/section10.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/section11.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -716,7 +710,15 @@
     <entry file="file://$PROJECT_DIR$/styles/includes/section1.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
-          <caret line="100" column="29" lean-forward="true" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+          <caret line="100" column="29" lean-forward="false" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/section10.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="38" column="72" lean-forward="true" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
           <folding />
         </state>
       </provider>
