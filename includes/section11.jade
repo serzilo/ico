@@ -20,10 +20,11 @@
                         | info@abc.com
 
                 .section__11_column.section__11_column-3
-                    form
+                    form.js-email-form(action="message.php")
                         label.section__11_label(for="input__11") Be the first to know when we launch:
-                        input.b-input.section__1_counter-input#input__11(type="email", placeholder="Your E-mail")
+                        input.b-input.section__1_counter-input#input__11(type="text", name="email", placeholder="Your E-mail")
                         button.b-button(type="submit") Sign Up to Register
+                        .form-message
 
             .section__11_terms-of-use
                 a(href="#").section__11_link

@@ -34,6 +34,14 @@ a {
     &:focus {
         border-color: rgba(255, 255, 255, 0.7);
     }
+
+    &--error {
+        border-color: #eb4b24 !important;
+
+        .section__9_input& {
+            border-color: #fff !important;
+        }
+    }
 }
 
 .b-button {
@@ -89,5 +97,15 @@ a {
 
     &_3 {
         .calc-font(30);
+    }
+}
+
+.form-message {
+    margin-top: 17px;
+    .calc-font(16);
+    color: #ffffff;
+
+    &:empty {
+        display: none;
     }
 }

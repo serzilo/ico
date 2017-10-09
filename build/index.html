@@ -64,9 +64,10 @@
               </div>
             </div>
             <div class="section__1_counter-form">
-              <form>
-                <input type="email" placeholder="Your E-mail" class="b-input section__1_counter-input">
+              <form action="message.php" class="js-email-form">
+                <input type="text" name="email" placeholder="Your E-mail" class="b-input section__1_counter-input">
                 <button type="submit" class="b-button">Sign Up to Register</button>
+                <div class="form-message"></div>
               </form>
             </div>
           </div>
@@ -299,11 +300,12 @@
     <div class="section__9">
       <div class="layout-main">
         <div class="section__9_container">
-          <form class="section__9_form">
+          <form action="message.php" class="section__9_form js-email-form">
             <label for="input__9" class="b-label section__9_label">Be the first to know when we launch:</label>
-            <input id="input__9" type="email" placeholder="Your E-mail" class="b-input section__9_input">
+            <input id="input__9" type="text" name="email" placeholder="Your E-mail" class="b-input section__9_input">
             <button type="submit" class="b-button section__9_button">Sign Up to Register</button>
           </form>
+          <div class="form-message"></div>
         </div>
       </div>
     </div>
@@ -443,10 +445,11 @@
               <p class="section__11_contacts-email section__11_text">info@abc.com</p>
             </div>
             <div class="section__11_column section__11_column-3">
-              <form>
+              <form action="message.php" class="js-email-form">
                 <label for="input__11" class="section__11_label">Be the first to know when we launch:</label>
-                <input id="input__11" type="email" placeholder="Your E-mail" class="b-input section__1_counter-input">
+                <input id="input__11" type="text" name="email" placeholder="Your E-mail" class="b-input section__1_counter-input">
                 <button type="submit" class="b-button">Sign Up to Register</button>
+                <div class="form-message"></div>
               </form>
             </div>
           </div>

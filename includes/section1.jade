@@ -33,6 +33,7 @@
                         .section__1_counter-num-label Seconds
 
                 .section__1_counter-form
-                    form
-                        input.b-input.section__1_counter-input(type="email", placeholder="Your E-mail")
+                    form.js-email-form(action="message.php")
+                        input.b-input.section__1_counter-input(type="text", name="email", placeholder="Your E-mail")
                         button.b-button(type="submit") Sign Up to Register
+                        .form-message

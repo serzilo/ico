@@ -122,7 +122,7 @@ gulp.task('sprite', function() {
 
 // JavaScript
 gulp.task('scripts', function () {
-	src.scripts = ['node_modules/jquery/jquery.min.js','scripts/counter.js','scripts/dropdown.js'];
+	src.scripts = ['node_modules/jquery/jquery.min.js','scripts/counter.js','scripts/dropdown.js','scripts/form.js'];
 	return gulp.src(src.scripts)
 		.pipe($.concat('bundle.js'))
 		.pipe($.uglify())
