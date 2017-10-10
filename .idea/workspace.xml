@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a76472b-987a-434b-a495-7c308f7c2051" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/images/sprite.png" afterPath="$PROJECT_DIR$/build/images/sprite.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/style.css" afterPath="$PROJECT_DIR$/build/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/faq.html" afterPath="$PROJECT_DIR$/build/faq.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/js/bundle.js" afterPath="$PROJECT_DIR$/build/js/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/header.jade" afterPath="$PROJECT_DIR$/includes/header.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/includes/header.less" afterPath="$PROJECT_DIR$/styles/includes/header.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/section1.jade" afterPath="$PROJECT_DIR$/includes/section1.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/section11.jade" afterPath="$PROJECT_DIR$/includes/section11.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/section9.jade" afterPath="$PROJECT_DIR$/includes/section9.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/sprite/icons.less" afterPath="$PROJECT_DIR$/styles/sprite/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/sprite/sprite-position.less" afterPath="$PROJECT_DIR$/styles/sprite/sprite-position.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,21 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/includes/header.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
-              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section11.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="section11.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/section11.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="255">
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -77,8 +78,18 @@
       <file leaf-file-name="section1.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/section1.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="76" lean-forward="false" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="89" />
+            <state relative-caret-position="289">
+              <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icons.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/sprite/icons.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,8 +98,8 @@
       <file leaf-file-name="section9.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/section9.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="51">
+              <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -126,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/styles/sprite/icons.less" />
         <option value="$PROJECT_DIR$/includes/section2.jade" />
         <option value="$PROJECT_DIR$/styles/includes/section5.less" />
         <option value="$PROJECT_DIR$/styles/includes/section6.less" />
@@ -155,15 +165,16 @@
         <option value="$PROJECT_DIR$/includes/section8.jade" />
         <option value="$PROJECT_DIR$/scripts/counter.js" />
         <option value="$PROJECT_DIR$/scripts/dropdown.js" />
-        <option value="$PROJECT_DIR$/includes/section1.jade" />
-        <option value="$PROJECT_DIR$/includes/section11.jade" />
         <option value="$PROJECT_DIR$/styles/base.less" />
-        <option value="$PROJECT_DIR$/includes/section9.jade" />
         <option value="$PROJECT_DIR$/styles/includes/section9.less" />
         <option value="$PROJECT_DIR$/scripts/form.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/includes/header.jade" />
         <option value="$PROJECT_DIR$/styles/includes/header.less" />
+        <option value="$PROJECT_DIR$/includes/section9.jade" />
+        <option value="$PROJECT_DIR$/styles/sprite/icons.less" />
+        <option value="$PROJECT_DIR$/includes/section1.jade" />
+        <option value="$PROJECT_DIR$/includes/section11.jade" />
       </list>
     </option>
   </component>
@@ -221,6 +232,11 @@
             <path>
               <item name="ico" type="b2602c69:ProjectViewProjectNode" />
               <item name="ico" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ico" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -248,6 +264,12 @@
               <item name="ico" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ico" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ico" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sprite" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -326,12 +348,12 @@
       <workItem from="1507571237900" duration="1259000" />
       <workItem from="1507573192071" duration="1785000" />
       <workItem from="1507575195319" duration="864000" />
-      <workItem from="1507657579389" duration="384000" />
+      <workItem from="1507657579389" duration="844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53279000" />
+    <option name="totallyTimeSpent" value="53739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="361" y="23" width="1915" height="1337" extended-state="0" />
@@ -368,13 +390,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/includes/layout.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -411,13 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/sprite/icons.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -638,30 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/section1.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="76" lean-forward="false" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/section11.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/section9.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/includes/section9.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -709,7 +693,44 @@
     <entry file="file://$PROJECT_DIR$/styles/includes/header.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/facebook.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/section9.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="56" lean-forward="false" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/sprite/icons.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/section1.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="16" column="69" lean-forward="true" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/section11.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding />
         </state>
       </provider>
